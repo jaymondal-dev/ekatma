@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile - Ekatma</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+                color: #333;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+
+            header {
+                text-align: center;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            header h1 {
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            header p {
+                color: #777;
+            }
+
+            .profile-content {
+                display: flex;
+                align-items: center;
+                padding: 20px 0;
+            }
+
+            .profile-image {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-right: 20px;
+            }
+
+            .profile-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .profile-info h2 {
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            .profile-info p {
+                color: #777;
+            }
+
+            .skills {
+                margin-top: 20px;
+            }
+
+            .skills h3 {
+                color: #555;
+                margin-bottom: 10px;
+            }
+
+            .skills ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .skills li {
+                display: inline-block;
+                margin: 5px;
+                padding: 8px 12px;
+                background-color: #eee;
+                color: #666;
+                border-radius: 5px;
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 20px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #777;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 600px) {
+                .container {
+                    padding: 10px;
+                }
+
+                .profile-content {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .profile-image {
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Ekatma</h1>
+                <p>Software Developer</p>
+            </header>
+
+            <section class="profile-content">
+                <div class="profile-image">
+                    <img
+                        src="https://via.placeholder.com/150"
+                        alt="Profile Picture"
+                    />
+                </div>
+                <div class="profile-info">
+                    <h2>About Me</h2>
+                    <p>
+                        Passionate software developer with experience in web
+                        development and mobile applications. I enjoy creating
+                        efficient and user-friendly solutions.
+                    </p>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Ekatma. All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
