@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Inter";
-    src: url("/static/inter.ttf") format("truetype");
+    src: url("https://github.com/jaymondal-dev/ekatma/blob/main/static/inter.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Noto";
-    src: url("/static/noto.ttf") format("truetype");
+    src: url("https://github.com/jaymondal-dev/ekatma/blob/main/static/noto.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Mukta";
-    src: url("/static/mukta.ttf") format("truetype");
+    src: url("https://github.com/jaymondal-dev/ekatma/blob/main/static/mukta.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
