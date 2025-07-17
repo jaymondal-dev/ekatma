@@ -143,10 +143,55 @@
         </style>
     </head>
     <body>
+        <nav class="navbar">
+            <a href="/" class="logo">Ekātma</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blogs/index.html" class="active">Blog</a></li>
+                <li><a href="/profile.html">About</a></li>
+                <li>
+                    <button class="theme-switcher" aria-label="Toggle theme">
+                        <!-- Moon icon - shown in light mode -->
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="theme-icon moon-icon"
+                        >
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+
+                        <!-- Sun icon - shown in dark mode -->
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="theme-icon sun-icon"
+                        >
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+            <div
+                class="hamburger"
+                aria-label="Menu toggle"
+                role="button"
+                tabindex="0"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
         <div class="container">
-            <header class="site-header-blog">
-                <p class=""><a href="/">Home</a> / <a href="/blogs/index.html">blogs</a> / <a href="/blogs/understanding-the-self.html">Understanding the True Self</a></p>
-            </header>
+
 
             <article class="blog-post">
                 <div class="post-header">
@@ -156,7 +201,7 @@
                         - Written by Jay Mondal
                     </div></a>
                     <div class="post-meta">
-                        Published on January 15, 2024 • 8 min read
+                        Published on January 15, 2025 • 8 min read
                     </div>
                     <p class="post-intro">
                         An introduction to Atman - the eternal, unchanging essence of who we truly are
@@ -328,5 +373,6 @@
                 </p>
             </footer>
         </div>
+        <script src="../theme-switcher.js"></script>
     </body>
 </html>
