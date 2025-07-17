@@ -14,6 +14,7 @@ mimetypes.add_type("text/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
 mimetypes.add_type("image/webp", ".webp")
 mimetypes.add_type("font/ttf", ".ttf")
+mimetypes.add_type("application/pdf", ".pdf")
 
 class EkatmaHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     # Override default directory for serving files
